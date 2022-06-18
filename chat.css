@@ -1,0 +1,76 @@
+.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+}
+
+li {
+  float: left;
+  border-right: 1px solid black;
+  width: 33.25%;
+  border-bottom: solid black 1px;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: none;
+}
+
+li a:hover:not(.active) {
+  background-color: lightgrey;
+}
+
+.active {
+  background-color: lightcyan;
+}
+
+.message{
+text-align: right;
+margin-left: 50px;
+}
+
+.width{
+width: 800px;
+border: 1px solid black;
+border-radius: 3px;
+padding: 5px;
+margin: 2px;
+}
+
+button{
+border: 1px solid black;
+border-radius: 5px;
+background-color: white;
+padding: 2px;
+margin: 1px;
+}
+
+.cross{
+  width: 25px;
+  background-color: white;
+  float: right;
+  }
+
+.no-border{
+  border: none;
+ margin-left: 100px;
+ }
+
+.border{
+  border: solid black 1px;
+}
+
+.center-align{
+margin-left: 725px;
+float: right;
+}

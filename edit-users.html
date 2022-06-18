@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/edit-users.css" />
+    <style>
+      tr:nth-child(odd) {background-color: #f2f2f2;}
+    </style>
+  </head>
+  <ul class="nav-bar">
+    <li><a href="/pages/chat.html">Group Chat</a></li>
+    <li><a class="active" href="/pages/users.html">Manage Users</a></li>
+    <li><a href="/pages/logout.html">Logout</a></li>
+  </ul>
+<h2> Edit User Information</h2>
+    <body>
+   
+    <div>
+        <form action="/action_page.php"></form>
+            <label for="name"><strong>Full Name</strong></label>
+            <input type="text" value="Anna Hunter"><br/><br/>
+            <label for="Email" class="textvalue"><strong>Email</strong></label>
+            <input type="text" id="Email" value="anne.hunter@mail.com"><br/><br/>
+        </form>
+        <br/>
+        <button class="border"><a href="/pages/users.html"><b>Save</b></a></button>
+    </div>
+  </body>
+</html>
